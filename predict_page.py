@@ -17,7 +17,7 @@ preprocessor = data['preprocessor']
 def show_predict_page():
     st.title('Car Price Prediction')
 
-    st.write("""### We need some information to predict the salary""")
+    st.write("""### We need some information to predict the price of the car""")
 
 
     transmission_type = ('Automatic', 'Manual')
